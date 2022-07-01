@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4821399810454930770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1870964012882055311}
+  - component: {fileID: 6183718626876670825}
+  - component: {fileID: 4563675478634728038}
+  - component: {fileID: 5545998963088597584}
+  - component: {fileID: -812482278279383848}
+  m_Layer: 0
+  m_Name: WoodenLogDrop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1870964012882055311
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4821399810454930770}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -38.000057, y: 0.9604003, z: 68.054375}
+  m_LocalScale: {x: 3.5256274, y: 2.167894, z: 4.347946}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 962945749552720962}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6183718626876670825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4821399810454930770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10df7d98e3ab1f748976d290735571db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 5
+  interactionTransform: {fileID: 1870964012882055311}
+  thisObject: {fileID: 4821399810454930770}
+  InInteractRange: 0
+  PlayerLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  AtiveColor: {r: 1, g: 0.45098042, b: 0, a: 1}
+  UnactiveColor: {r: 0, g: 0, b: 0, a: 0}
+  item: {fileID: 11400000, guid: aa0d3fa8f020574439b37aa85a932027, type: 2}
+--- !u!136 &4563675478634728038
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4821399810454930770}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.17
+  m_Height: 1.2917879
+  m_Direction: 1
+  m_Center: {x: -0.2583599, y: -0.05583632, z: 0}
+--- !u!54 &5545998963088597584
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4821399810454930770}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &-812482278279383848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4821399810454930770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 0.45290935, b: 0, a: 1}
+  outlineWidth: 9
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+--- !u!1001 &781281574316575657
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1870964012882055311}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8fe79b873b9eb8a4cbc82a50c7e7ed71, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fe79b873b9eb8a4cbc82a50c7e7ed71, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 59.18393
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fe79b873b9eb8a4cbc82a50c7e7ed71, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 59.18393
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fe79b873b9eb8a4cbc82a50c7e7ed71, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 59.18393
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fe79b873b9eb8a4cbc82a50c7e7ed71, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.279
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fe79b873b9eb8a4cbc82a50c7e7ed71, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fe79b873b9eb8a4cbc82a50c7e7ed71, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.133
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fe79b873b9eb8a4cbc82a50c7e7ed71, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9033044
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fe79b873b9eb8a4cbc82a50c7e7ed71, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.017364055
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fe79b873b9eb8a4cbc82a50c7e7ed71, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.00823831
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fe79b873b9eb8a4cbc82a50c7e7ed71, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.4285694
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fe79b873b9eb8a4cbc82a50c7e7ed71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 2.203
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fe79b873b9eb8a4cbc82a50c7e7ed71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fe79b873b9eb8a4cbc82a50c7e7ed71, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -50.764
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8fe79b873b9eb8a4cbc82a50c7e7ed71, type: 3}
+      propertyPath: m_Name
+      value: WoodLog
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8fe79b873b9eb8a4cbc82a50c7e7ed71, type: 3}
+--- !u!4 &962945749552720962 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8fe79b873b9eb8a4cbc82a50c7e7ed71, type: 3}
+  m_PrefabInstance: {fileID: 781281574316575657}
+  m_PrefabAsset: {fileID: 0}

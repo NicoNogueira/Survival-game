@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bae00e440bb8304bae3f4862b031db0, type: 3}
+  m_Name: Axe
+  m_EditorClassIdentifier: 
+  name: Axe
+  icon: {fileID: 21300000, guid: 6516450d64ae3ae40ad42f2f836d673a, type: 3}
+  isDefaultItem: 0
+  tool: 1
+  food: 0
+  armor: 0
+  model: {fileID: 2882526736167772170, guid: c43bfe5a574f1764386d4e551aa8dadc, type: 3}
